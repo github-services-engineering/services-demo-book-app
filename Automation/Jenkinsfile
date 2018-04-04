@@ -53,7 +53,7 @@ node("agent-ruby")
 		//sh 'echo uname=$USERNAME pwd=$PASSWORD'
 
 		// Clone the repo
-		git url: "https://$PASSWORD@github.com/github/Services-Demo-Ruby-App", branch: "${branch}"
+		git url: "https://$PASSWORD@github.com/github-services-engineering/services-demo-book-app", branch: "${branch}"
 	}
 
 

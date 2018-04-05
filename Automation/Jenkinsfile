@@ -24,6 +24,7 @@ node("agent-ruby")
 	    try
 	    {
 		    
+		sh 'printenv'
 	    
 	        // Grab Branch from ENV
 	        branch = env.BRANCH_NAME

@@ -21,8 +21,7 @@ describe "creating a book", type: :feature do
   end
 
   # TODO: Replace `skip` with `it`
-    
-  # DONE!
+
   it "validates a numeric year" do
     visit "/books/new"
     within "#as_books-create--form" do
